@@ -1,0 +1,17 @@
+{
+    "name": "lucas/curso01-criandosuaaplicao",
+    "require": {
+        "brick/math": "^0.13.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lucas\\Curso01Criandosuaaplicao\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas",
+            "email": "lucck10@hotmail.com"
+        }
+    ]
+}

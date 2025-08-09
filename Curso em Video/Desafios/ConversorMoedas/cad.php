@@ -12,7 +12,7 @@
         <?php 
             $valor = $_GET["valor"];
             $vdolar = $valor / 5.66;
-            echo "<p>O valor $valor convertido em dólar é de $vdolar. </p>"
+            echo "<p>O valor convertido em dólar é de " . number_format($vdolar,2). ".</p>"
         ?>
     </main>
     
